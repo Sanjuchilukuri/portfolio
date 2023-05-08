@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<head>
+
+    <title>Portfolio</title>
+    <link rel="icon"  href="/Images/website_logo.png" type="image">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="index.css">
+
+
+    <script type="text/javascript">
+
+       
+        function openFullImg(pic){
+            
+            document.getElementById("fullImgBox").style.display = "flex"; 
+            document.getElementById("fullImg").src = pic;
+        }
+
+        function closeFullImg() {
+            document.getElementById("fullImgBox").style.display = "none";
+        }
+
+
+        window.addEventListener("scroll",function(){
+            var header = document.querySelector("header")
+            header.classList.toggle("sticky",window.scrollY > 0);
+        })
+
+        
+    </script> 
+
+</head>
+<body >
+
+    <div class="a-z">
+
+        <header>
+            <a href="#p" class="logo" ><img id="s_logo" src="/Images/website_logo.png"></a>
+            <ul>
+                <li><a href="#a" >About</a></li>
+                <li><a href="#s"  >Skills</a></li>
+                <li><a href="#c"  >Code portray</a></li>
+                <li><a href="#ce" >Certifications</a></li>
+                <li><a href="#pro"  >Projects</a></li>
+            </ul>
+        </header>
+
+        <!------------------------------------------------------------------------------------------------------------------------>
+        <div class="profile" id="p">    
+
+            <div class="my_name">
+                <h1 id="st" >HI I'AM</h1>
+                <h1 id="na">CH. SANJU</h1>
+                <a href="https://www.linkedin.com/in/sanju-chilukuri/" target="_blank" ><img id="linkedin" src="/Images/linkedin-removebg-preview.png"></a>
+                <a href="https://github.com/Sanjuchilukuri" target="_blank" ><img id="github" src="/Images/github-removebg-preview.png"></a>
+                <a href="mailto:20a91a1209@aec.edu.in" target="_blank"><img id="mail" src="/Images/mail-removebg-preview.png"></a>
+                <a href="./resume.pdf" target="_blank" download='resume'><img id="resume" src="/Images/images-removebg-preview.png"></a>
+            </div>
+
+            <div class="img">
+                <img id="image" src="/Images/download-removebg-preview.png">
+            </div>
+
+        </div>
+
+        <!------------------------------------------------------------------------------------------------------------------------>
+        
+
+        <div  id="a" class="second_page">
+
+            <h1 class="About_me">About</h1>
+            
+            <div class="s_img">
+                <img   class="temp" width="330px" height="330px" src="/Images/tmp2-removebg-preview.png" >
+            </div>
+            
+            <div class="my_info">
+                <h3>A passionate and talented fresher in the field of web development, possessing strong 
+                    coding skills and expertise in HTML and CSS. With over 1000 hours of coding experience 
+                    and 100+ hours of data structure and algorithm knowledge, I have developed a solid 
+                    foundation in programming. Additionally, I have a strong grasp of cloud computing and
+                    proficiency in the Linux operating system. I am skilled in programming languages such as
+                    C++, Java, and Python, and I am continuously expanding my knowledge. As a dedicated and 
+                    competent team member, I am eager to contribute my skills and enthusiasm to an exciting tech 
+                    company.
+                </h3>
+            </div>
+        
+        </div>
+
+        <!------------------------------------------------------------------------------------------------------------------------>
+
+        <div id="s" class="third_page">
+            
+            <h3 class="skills">Skills</h3>
+            
+            <div class="container">
+            
+                <div class="first_line">
+                    <div class="one"><img  src="/Images/c-removebg-preview.png" style="width:100%;height: 100%;max-width: 135px;max-height: 125px; padding: 13px;"></div>
+                    <div class="two"><img  src="/Images/cpp-removebg-preview.png" style="width:100%;height: 100%;max-width: 135px;max-height: 125px;padding: 13px;"></div>
+                    <div class="three"><img  src="/Images/java-removebg-preview.png" style="width:100%;height: 100%;max-width: 135px;max-height: 125px;padding: 13px; "></div>
+                    <div class="four"><img  src="/Images/python-removebg-preview.png" style="width:100%;height: 100%;max-width: 305px;max-height: 125px; padding: 10px;"></div>
+                </div>
+            
+                <div class="second_line">
+                    <div class="one"><img  src="/Images/html.png" style="width:100%;height: 100%;max-width: 135px;max-height: 125px; padding: 13px;"></div>
+                    <div class="two"><img  src="/Images/css.png" style="width:100%;height: 100%;max-width: 200px;max-height: 200px; padding: 17px;"></div>
+                    <div class="three"><img  src="/Images/Aws.png" style="width:100%;height: 100%;max-width: 135px;max-height: 125px; padding: 13px;"></div>
+                    <div class="four"><img  src="/Images/linux.png" style="width:100%;height: 100%;max-width: 135px;max-height: 125px; padding: 13px;"></div>
+                </div>
+            
+                <div class="third_line">
+                    <div class="one"><img  src="/Images/ms-offoice.png" style="width:100%;height: 100%;max-width: 135px;max-height: 125px; padding: 11px;"></div>
+                    <div class="two"><img  src="/Images/git.png" style="width:100%;height: 100%;max-width: 135px;max-height: 125px; padding: 13px;"></div>
+                    <div class="three"><img  src="/Images/devops-removebg-preview.png" style="width:100%;height: 100%;max-width: 135px;max-height: 125px; padding:5px  0px;"></div>
+                    <div class="four"></div>
+                </div>
+            
+            </div>
+
+        </div>
+
+        <!------------------------------------------------------------------------------------------------------------------------>
+
+        <div class="fourth_page" id="c">
+
+            <h3 class="coding">Code portray</h3>
+            
+            <div class="back">
+                <a href="https://auth.geeksforgeeks.org/user/sanju_chilukuri/practice" target="_blank">
+                <div class="gfg_back">
+                    <div class="front">
+                       <img src="/Images/gfg1.png" width="250px" height="150px" style="padding: 10px;margin-top: 30px;">
+                    </div>
+                    <div class="back_side">
+                        <h2 style="margin-left: 20px;">Problems solved : 300+</h2>
+                    </div>
+                </div></a>
+
+                <a href="https://leetcode.com/sanju1819/" target="_blank">
+                <div class="leetcode_back">
+                    <div class="front">
+                        <img src="/Images/leetcode.png" width="250px" height="150px" style="padding: 10px;margin-top: 30px;">
+                    </div>
+                    <div class="back_side">
+                        <h2 style="margin-left: 20px;">Problems solved : 300+</h2>
+                    </div>
+                </div></a>
+
+                <a href="https://www.codechef.com/users/sanju1819" target="_blank">
+                <div class="codechef_back">
+                    <div class="front">
+                        <img src="/Images/codechef_logo.png" width="250px" height="200px" style="padding: 40px;margin-top: 0px;">
+                    </div>
+                    <div class="back_side_codechef">
+                        <h2 style="margin-left: 70px;">2 star coder</h2>
+                        <h2 style="margin-left: 70px;">with higest rating 1560</h2>
+                    </div>
+                </div></a>
+
+                <a href="https://www.hackerrank.com/sanju1819" target="_blank">
+                <div class="hackerrank_back">
+                    <div class="front">
+                        <img src="/Images/hackerrank_logo.png" width="250px" height="150px" style="padding: 10px;margin-top: 30px;">
+                    </div>
+                    <div class="back_side_hackerrank">
+                        <h2 style="margin-left: 70px;">5 star's in</h2>
+                        <h2 style="margin-left: 0px;">Cpp, Python, Java, sql</h2>
+                        <h2 style="margin-left: 20px;">and Problem solving</h2>
+                    </div>
+                </div></a>
+
+            </div>
+
+        </div>
+        
+        <!------------------------------------------------------------------------------------------------------------------------>
+
+        <div class="page_5" id="ce">
+
+            <center> <h2>Certifications</h2> </center> 
+
+            <div class="full-img" id="fullImgBox">
+                <img src="/Images/cpp_certificate.png" id="fullImg">
+                <span onclick="closeFullImg()">x</span>
+            </div>
+
+            <div class="img-gallery">
+                <img src="/Images/cpp_certificate.png" onclick="openFullImg(this.src)" >
+                <img src="/Images/python.png" onclick="openFullImg(this.src)" >
+                <img src="/Images/java.png" onclick="openFullImg(this.src)" >
+                <img src="/Images/database.png" onclick="openFullImg(this.src)" >
+                <img src="/Images/NDG_LINUX.png" onclick="openFullImg(this.src)" >
+                <img src="/Images/Software Testing.jpg" onclick="openFullImg(this.src)" >
+                <img src="/Images/cloud_computing.png" onclick="openFullImg(this.src)" >
+            </div>
+            
+
+        </div>
+
+        <!------------------------------------------------------------------------------------------------------------------------>
+
+        <div class="page_6" id="pro">
+            <h2 >Projects</h2>
+
+            <div class="portfolio">
+                <a href="" target="_blank">
+                    <div class="the_pic">
+                        <img src="/Images/porti.png">
+                    </div>
+                </a>
+                <h4 style="padding: 10px ;color: #4d7ac8;">
+                    I created a portfolio using HTML, CSS, and JavaScript, showcasing my skills and projects. It features a visually 
+                    appealing design with organized content. Interactive elements and animations enhance the user experience. The 
+                    portfolio represents my abilities and achievements, demonstrating my proficiency in web development and design. 
+                </h4>
+
+            </div>
+            
+            <div class="on-progress">
+                <h2 style="margin-top: 150px; margin-left: 30px;">In Progress...</h2>
+            </div>
+
+            <div class="comming-soon">
+                <h2 style="margin-top: 150px;">Comming Soon...</h2>
+            </div>
+        </div>
+       
+    </div>
+
+  
+    
+</body>
+</html>
