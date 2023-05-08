@@ -1,4 +1,4 @@
-# portfolio
+# Portfolio
 This readme file provides an overview of my professional portfolio, showcasing animations, well-crafted CSS, and structured HTML
 
 ## Getting Started
