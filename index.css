@@ -700,20 +700,28 @@ header .sticky ul li a{
     display: none;
 }
 @media only screen and (max-width: 600px) {
+  .a-z{
+    display: flex;
+    justify-content: center;
+  }
+   
+   .a-z header{
+    display: none;
+   }
   .tmp{
-    display: block;
+    display: flex;
+    justify-content: center;
     width: 300px;
     height: 300px;
     top:30%;
-    left: 100px;
     position: fixed;
     background-color: rgb(237, 237, 181);
-    align-content: center;
+    align-items: center;
     box-shadow: 2px 2px 3px 5px;
   }
   .tmp h3{
-    top: 45%;
-    left: 10%;
+    /* top: 45%;
+    left: 10%; */
     position: relative;
   }
   .profile, .second_page, .third_page, .fourth_page, .page_5, .page_6
